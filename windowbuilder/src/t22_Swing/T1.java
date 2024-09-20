@@ -9,12 +9,12 @@ import java.awt.Color;
 import javax.swing.ImageIcon;
 
 @SuppressWarnings("serial")
-public class Test1 extends JFrame {
+public class T1 extends JFrame {
 
 	private JPanel contentPane;
 
 
-	public Test1() {
+	public T1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//setBounds(100, 100, 821, 506);
 		setSize(800, 600);
@@ -49,13 +49,13 @@ public class Test1 extends JFrame {
 		pn2.setLayout(null);
 		
 		JLabel lblMessage = new JLabel("New label");
-		lblMessage.setIcon(new ImageIcon(Test1.class.getResource("/t22_Swing/images/11.jpg")));
+		lblMessage.setIcon(new ImageIcon(T1.class.getResource("/t22_Swing/images/11.jpg")));
 		lblMessage.setBackground(Color.ORANGE);
 		lblMessage.setBounds(673, 73, -572, 142);
 		pn2.add(lblMessage);
 	}
 
 	public static void main(String[] args) {
-		new Test1();
+		new T1();
 	}
 }

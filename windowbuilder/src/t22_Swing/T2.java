@@ -11,10 +11,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 @SuppressWarnings("serial")
-public class Test2 extends JFrame {
+public class T2 extends JFrame {
 	JPanel pn1, pn2, pn3;
 
-	public Test2() {
+	public T2() {
 		setTitle("연습하기");
 		setSize(800, 600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -49,12 +49,12 @@ public class Test2 extends JFrame {
 		pn2.setLayout(null);
 		
 		JLabel lbl1 = new JLabel("");
-		lbl1.setIcon(new ImageIcon(Test2.class.getResource("/t22_Swing/images/11.jpg")));
+		lbl1.setIcon(new ImageIcon(T2.class.getResource("/t22_Swing/images/11.jpg")));
 		lbl1.setBounds(14, 10, 178, 351);
 		pn2.add(lbl1);
 		
 		JLabel lbl2 = new JLabel("");
-		lbl2.setIcon(new ImageIcon(Test2.class.getResource("/t22_Swing/images/12.jpg")));
+		lbl2.setIcon(new ImageIcon(T2.class.getResource("/t22_Swing/images/12.jpg")));
 		lbl2.setBounds(206, 10, 178, 351);
 		pn2.add(lbl2);
 		
@@ -162,6 +162,6 @@ public class Test2 extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		new Test2();
+		new T2();
 	}
 }
